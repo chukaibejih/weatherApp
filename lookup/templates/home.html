@@ -30,7 +30,7 @@
                         </a>
                     </form>
             
-                    <div class="mb-4 pb-2">
+                    <!-- <div class="mb-4 pb-2">
                         <div class="form-check form-check-inline">
                         <input
                             class="form-check-input"
@@ -53,7 +53,7 @@
                         />
                         <label class="form-check-label" for="inlineRadio2">Farenheit</label>
                         </div>
-                    </div>
+                    </div> -->
             
                     <div class="card shadow-0 border">
                         <div class="card-body p-4">
@@ -77,13 +77,14 @@
                 </div>
             </section> 
 
-    Location = {{ api.name }}, {{ api.sys.country }}<br/>
+    <!-- Location = {{ api.name }}, {{ api.sys.country }}<br/>
     Current temprature: {{ api.main.temp }}<br/>
     Feels like: {{ api.main.feels_like }}<br/>
     Max: {{ api.main.temp_max }}<br/>
     Min: {{ api.main.temp_min }}<br/>
-    Description: {{ api.weather.0.description }}
+    Description: {{ api.weather.0.description }} -->
             {% endif %}
     {% endif %}
+
 
 {% endblock %}
